@@ -1,0 +1,22 @@
+doctype html
+html
+	title New Post
+	link(rel='stylesheet', href='/style.css')
+body
+	h1 New Post
+	form(class="form-style" method="POST", action="/bulletin")
+		div.stylizer Title
+			label(for="title") 
+			input(name="title", type='text', id='title', required=true)
+		div.stylizer User
+			label(for="user")
+			input(name="user", type='text', id='user', required=true)
+		div.stylizer Post
+			label(for="post")
+			textarea(name="post", type='text', id='post', rows='10', 
+	cols='50', required=true)
+		div.stylizer
+			button Submit
+	div.stylizer
+		a(href="/bulletin")
+			button.btn View Posts

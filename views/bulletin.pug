@@ -1,0 +1,18 @@
+doctype html
+html
+	title Bulletin Board
+	link(rel='stylesheet', href='/style.css')
+body
+	header
+		h1.bulletin-head Bulletin Board
+		div
+			a(href="/post")
+				button.post-message Post Message   
+		- for (var i = messages.length - 1; i >= 0; --i) {
+			h2.messageTitle= messages[i].title
+			h4.messageUser= messages[i].user
+			p.messagePost= messages[i].post
+		- }
+		div
+			a(href="/post")
+				button.post-message Post Message   

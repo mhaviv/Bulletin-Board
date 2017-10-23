@@ -1,0 +1,83 @@
+/*Both Files*/
+body {
+	font-size: 2em;
+	font-family: verdana;
+	text-align: center;
+	background-color: #4553C2;
+}
+
+input {
+	font-size: 1em;
+}
+
+button {
+	font-size: 1em;
+}
+
+label {
+	margin-right: 0.5em;
+}
+
+textarea {
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 2.6em;
+	text-decoration: underline;
+	color: #E5DDDD;
+}
+
+
+/*post.pug styling*/
+
+.form-style {
+	font-size: 1em;
+	color: #ECB849;
+}
+
+
+.stylizer {
+	padding: 0.3em;
+}
+
+/*bulletin.pug styling*/
+
+.bulletin-head {
+	font-size: 3.4em;
+	color: #E5DDDD;
+	margin-bottom: 0.1em;
+	text-decoration: underline;
+}
+
+.messageTitle {
+	font-size: 2.1em;
+	color: #ECB849;
+	text-decoration: underline;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+
+.messageUser {
+	font-size: 1.2em;
+	color: #23DC2F;
+	margin-top: 0.4em;
+	text-transform: capitalize;
+}
+
+
+.messagePost {
+	font-size: 1em;
+	padding-bottom: 1.4em;
+}
+
+.post-message {
+	font-size: 1.5em;
+	margin-top: 0.4em;
+	margin-bottom: 0.06em;
+	color: #00B3FC;
+
+}
+
