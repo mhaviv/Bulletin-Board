@@ -18,17 +18,26 @@ var Message = sequelize.define('message', {
     },
     title: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     },
 
     user: {
         type:Sequelize.STRING(100),
-        allowNull: false
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     },
 
     post: {
         type: Sequelize.TEXT,
-        allowNull: false
+        allowNull: false,
+        validate: {
+            notEmpty: true
+        }
     },
 
     created_at: {
